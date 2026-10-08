@@ -13,9 +13,6 @@
                 scroll-behavior: smooth;
             }
         </style>
-        <!-- 1. It prevents from website being to wide for mobile devices.
-         2. in the head table
-         3. yes -->
     <link rel="icon" href="images/money_22144.ico">
     </head>
     <body id="top">
@@ -24,19 +21,12 @@
                 <a href="#about">#about</a>
                 <a href="#projects">#projects</a>
                 <a href="#contacts">#contact</a>
-                <!--1. A white page will show up showing an error
-                    2. Yes
-                    3. because it points to a specific subsection, or fragment, 
-                    of a larger document or resource.-->
             </nav>
             <h1>Aedenn Joseph Wheeler</h1>
             <h2><strong>Newbie Developer</strong></h2>
             <p>Hello my name is Aedenn and I am a new student in <em>OCVTS</em>.<br>I came here to learn Computer Science the cool stuff.<br> I always wanted to code
             even when I was a kid. So this is the begining!
             </p>
-            <!-- 1. A website should only have 1 <h1>
-            2. The visual difference is the size.
-            3. YES -->
         </header>
         <main>
         <section id="about">
@@ -47,6 +37,27 @@
         <hr>
         <p>I am currently a Junior in Highschool and I don't have a job so <br>HIRE ME PLEASE!<br> besides that I don't have much education yet but I will be growing that by the years.</p>
         <hr>
+        <div class="Media">
+            <video controls width="320" poster="https://miro.medium.com/0*A7MUqyCLvZDcHkfM.jpg">
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+
+            <video controls width="320" poster="https://miro.medium.com/0*A7MUqyCLvZDcHkfM.jpg">
+            <source src="" type="video/mp4">
+             Your browser does not support the video tag.
+            </video>
+
+            <audio controls>
+            <source src="audio/metal-pipe-clang.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+            <audio controls>
+            <source src="audio/metal-pipe-clang.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+
+        </div>
         <div class="about-content">
         <aside>
             <h3>Quick Facts</h3>
@@ -57,19 +68,31 @@
         </div>
         <hr>
         <mark>Currently Reading: Nothing</mark>
-        <!-- 1. they communicate entirely different things to search engines and screen readers.
-        2. Yes you can, it will become bolded and static
-        3. A web browser collapses multiple consecutive spaces, tabs, and line breaks in HTML source code into a single standard space when rendering text -->
         <p>My Philosophy.</p>
         <blockquote>"I was born to make mistakes, not to fake perfection." - <cite>Drake</cite></blockquote>
-        <!-- 1.  <blockquote> creates a separate, block-level section for extended quotations, while <q> is an inline element used for short quotes within a sentence.
-          2. It can do both
-          3. Yes-->
-          <hr>
+        <figure>
+                <img src="https://miro.medium.com/0*A7MUqyCLvZDcHkfM.jpg" alt="cute cat" width="400px" height="400px">
+                <figcaption>My name is aedenn and this is all about me</figcaption>
+        </figure>  
+        <hr>
         </section>
 
         <section id="projects">
             <h1>Projects</h1>
+            <div class="projects-grid">
+                <figure class="container">
+                <img src="images/Screenshot 2026-10-08 092202.png" alt="Thumbnail" style="width:20%">
+                    <figcaption>Practice Activity 4</figcaption>
+                </figure>
+                    <figure class="container">
+                <img src="images/Screenshot 2026-10-08 093007.png" alt="Thumbnail" style="width:20%">
+                    <figcaption>Practice Activity 4</figcaption>
+                    </figure>
+                <figure class="container">
+                <img src="images/Screenshot 2026-10-08 093247.png" alt="Thumbnail" style="width:20%">
+                    <figcaption>Practice Activity 4</figcaption>
+                </figure>
+            </div>
             <table>
                 <thead>
                     <tr>
@@ -103,6 +126,7 @@
             </table>
             <hr>
         </section>
+
         <section id="skills">
                 <h1>Skills</h1>
                 <h3>Technical Skills</h3>
@@ -139,17 +163,11 @@
             <a href="javascript:window.print()">Print this Page</a>
             <br>
             <a href="#" onclick="alert('Coming Soon!')">?</a>
-            <!--1. The target="_blank" attribute instructs the browser to open the linked document in a new window or tab. 
-            The default target for links is target="_self"
-                2. is recommended to protect your website from a security threat called reverse tabnabbing
-                3. it treats it as a pc path instead of a web path -->
             </section>
         </main>
         <footer>
             <!--Content goes here-->
         </footer>
     </body>
-    <!--1. it brings them to an app or website where there main site/app for emails are.
-        2. no
-        3. no-->
+   
 </html>
