@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Aedenn Wheeler">
         <meta name="description" content="A portfolio showcasing my web development work.">
+        <link rel="stylesheet" href="style.css">
         <meta og:title og:image>
         <title>Aedenn</title>
         <style>
@@ -17,25 +18,26 @@
     <body id="top">
         <header>
             <nav>
-                <a href="#about">#about</a>
-                <a href="#projects">#projects</a>
-                <a href="#contacts">#contact</a>
+                <a href="#about">about</a>
+                <a href="#projects">projects</a>
+                <a href="#contacts">contact</a>
             </nav>
-            <h1>Aedenn Joseph Wheeler</h1>
-            <h2><strong>Newbie Developer</strong></h2>
-            <p>Hello my name is Aedenn and I am a new student in <em>OCVTS</em>.<br>I came here to learn Computer Science the cool stuff.<br> I always wanted to code
-            even when I was a kid. So this is the begining!
-            </p>
+                <h1>Aedenn Joseph Wheeler</h1>
+                <h2><strong>Newbie Developer</strong></h2>
+                <p>Hello my name is Aedenn and I am a new student in <em>OCVTS</em>.<br>I came here to learn Computer Science the cool stuff.<br> I always wanted to code
+                even when I was a kid. So this is the begining!
+                </p>
         </header>
         <main>
+            <div class="container">
         <section id="about">
-        <h2>About Me</h2>
-        <p>Hello My name is <strong>Aedenn Wheeler</strong>, I am 16 years old as when im making this, I live in Lacey Township, and I go to Lacey Township Highschool.</p>
-        <hr>
-        <p>My passion is to go to <em>NJIT</em> and get at most a <em>Majors Degree in Computer Science</em>.</p>
-        <hr>
-        <p>I am currently a Junior in Highschool and I don't have a job so <br>HIRE ME PLEASE!<br> besides that I don't have much education yet but I will be growing that by the years.</p>
-        <hr>
+            <h2>About Me</h2>
+            <p>Hello My name is <strong>Aedenn Wheeler</strong>, I am 16 years old as when im making this, I live in Lacey Township, and I go to Lacey Township Highschool.</p>
+            <hr>
+            <p>My passion is to go to <em>NJIT</em> and get at most a <em>Majors Degree in Computer Science</em>.</p>
+            <hr>
+            <p>I am currently a Junior in Highschool and I don't have a job so <br>HIRE ME PLEASE!<br> besides that I don't have much education yet but I will be growing that by the years.</p>
+            <hr>
         <div class="Media">
             <video controls width="320" poster="https://miro.medium.com/0*A7MUqyCLvZDcHkfM.jpg">
             <source src="" type="video/mp4">
@@ -55,7 +57,6 @@
             <source src="audio/metal-pipe-clang.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
             </audio>
-
         </div>
         <div class="about-content">
         <aside>
@@ -66,28 +67,30 @@
         </aside>
         </div>
         <hr>
-        <mark>Currently Reading: Nothing</mark>
-        <p>My Philosophy.</p>
-        <blockquote>"I was born to make mistakes, not to fake perfection." - <cite>Drake</cite></blockquote>
+            <mark>Currently Reading: Nothing</mark>
+            <p>My Philosophy.</p>
+            <blockquote>"I was born to make mistakes, not to fake perfection." - <cite>Drake</cite></blockquote>
         <figure>
-                <img src="https://miro.medium.com/0*A7MUqyCLvZDcHkfM.jpg" alt="cute cat" width="400px" height="400px">
-                <figcaption>My name is aedenn and this is all about me</figcaption>
+            <img src="https://miro.medium.com/0*A7MUqyCLvZDcHkfM.jpg" alt="cute cat" width="400px" height="400px">
+            <figcaption>My name is aedenn and this is all about me</figcaption>
         </figure>  
         <hr>
         </section>
+        </div>
 
+        <div class="container">
         <section id="projects">
             <h1>Projects</h1>
             <div class="projects-grid">
-                <figure class="container">
+                <figure class="project-card">
                 <img src="images/Screenshot 2026-10-08 092202.png" alt="Thumbnail" style="width:20%">
-                    <figcaption>Practice Activity 4</figcaption>
-                </figure>
-                    <figure class="container">
+                <figcaption>Practice Activity 4</figcaption>
+            </figure>
+                <figure class="project-card">
                 <img src="images/Screenshot 2026-10-08 093007.png" alt="Thumbnail" style="width:20%">
-                    <figcaption>Practice Activity 4</figcaption>
-                    </figure>
-                <figure class="container">
+                <figcaption>Practice Activity 4</figcaption>
+            </figure>
+                <figure class="project-card">
                 <img src="images/Screenshot 2026-10-08 093247.png" alt="Thumbnail" style="width:20%">
                     <figcaption>Practice Activity 4</figcaption>
                 </figure>
@@ -125,7 +128,9 @@
             </table>
             <hr>
         </section>
+        </div>
 
+        <div class="container">
         <section id="skills">
                 <h1>Skills</h1>
                 <h3>Technical Skills</h3>
@@ -147,8 +152,10 @@
                     <li><strong>Noneting</strong> <em>year. 2026</em><br><p>Noneting,Noneting,Noneting,Noneting,Noneting</p></li>
                 </ol>
             </section>
+            </div>
             <hr>
 
+            <div class="container">
         <section id="contacts">
             <h1>Contacts</h1>
             <a href="https://github.com/AedennW" target="_blank" rel="noopener noreferrer">My Github</a>
@@ -183,6 +190,7 @@
                 </fieldset>
             </form>
             </section>
+            </div>
         </main>
         <footer>
             <!--Content goes here-->
