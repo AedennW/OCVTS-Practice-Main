@@ -7,6 +7,7 @@ body {
     line-height: 1.6;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
+    background: linear-gradient(to right, #f8fafc, #73a0db);
     
 }
 
@@ -75,6 +76,7 @@ nav {
    border: 1px solid #cbd5e1;
    width: 100%; 
    border-collapse: collapse;
+   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
  }
 
  img {
@@ -93,6 +95,15 @@ code, pre, kbd, samp {
 
 input, textarea, select, button {
     font-family: inherit;
+}
+
+button {
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #9aa7c9;
+    transform: scale(1.05);
 }
 
 .tagline {
@@ -146,4 +157,21 @@ tr:nth-child(even) {
 
 ::before {
     counter-increment: 2026;
+}
+
+.project-card { 
+    box-shadow: 0 4px 6px rgba(0,0,0,0.07);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.profile-img { 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.contact-form {
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06)
 }
