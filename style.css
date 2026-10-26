@@ -56,6 +56,11 @@ a:visited {
  }
 nav {
     padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--dark);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
  }
 
  nav a {
@@ -70,6 +75,7 @@ nav {
 .project-card {
     border: 1px solid #e2e8f0;
     border-radius: 8px;
+    position: relative;
  }
 
  table {
@@ -174,4 +180,13 @@ tr:nth-child(even) {
 
 .contact-form {
     box-shadow: 0 2px 12px rgba(0,0,0,0.06)
+}
+
+.backtotop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    display: none;
+    z-index: 99;
 }
