@@ -68,6 +68,19 @@ nav {
     font-size: 0.85rem;
  }
 
+ nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+
+ }
+
+ nav li {
+    list-style: none;
+
+ }
+
  aside {
     border-left: 4px solid #f59e0b;
     padding-left: 20px;
@@ -127,7 +140,10 @@ blockquote {
     display: flex;
     flex-wrap: wrap; 
     gap: 10px;
+    display: flex;
+    flex-wrap: wrap; gap: 10px;
 }
+
 .skills-list li { 
     background: var(--primary); 
     color: rgb(0, 0, 0);
